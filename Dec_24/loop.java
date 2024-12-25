@@ -7,7 +7,7 @@ public class loop {
             for(int i=0; i<a; i++){
                 System.out.print(i);
             }
-            System.out.println(a)
+            System.out.println(a);
         }
     }
 }
