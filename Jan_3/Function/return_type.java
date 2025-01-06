@@ -17,9 +17,11 @@ public class return_type {
         return 10.3;
     }
 
-
-
     public static void main(String[] args) {
-        
+        System.out.println("Addition of two numbers is: " +result());
+        System.out.println(result1());
+        System.out.println(result2());
+        System.out.println(result3());
+
     }
 }
