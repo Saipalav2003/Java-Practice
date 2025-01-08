@@ -37,8 +37,8 @@ public class Function_Percentage {
     }
 
     public static void main(String[] args) {
-        
-        marks(67, 57, 79, 54, 66);
+
+        marks(89, 12, 13, 14, 15);
         percentage();
         
         grade();
