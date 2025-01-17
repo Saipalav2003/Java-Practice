@@ -2,9 +2,9 @@ package Jan_15.Constructor;
 
 public class DefaultConst {
     
-    String Name;
-    int Salary;
-    int Age;
+    String Name = "Kavya";
+    int Salary = 20000;
+    int Age = 23;
 
     DefaultConst(){
         System.out.println("This is a default constructor");
