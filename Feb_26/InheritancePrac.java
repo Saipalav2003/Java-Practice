@@ -1,6 +1,6 @@
 package Feb_26;
 
-public class InheritancePrac {
+public class InheritancePrac{
     
     class Marks{
 

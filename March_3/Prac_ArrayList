@@ -1,0 +1,24 @@
+package March_3;
+
+import java.util.Prac_ArrayList;
+
+public class Prac_ArrayList{
+
+    public static void main(String[] args){
+
+        Arraylist<Integer> data = new Arraylist<Integer>();
+
+        data.add("21");
+        data.add("78");
+        data.add("33");
+        data.add("41");
+
+        system.out.println("data: "+data);
+
+        System.out.println(data.get(2));
+
+        data.remove(3);
+		System.out.println(data);
+
+    }
+}
