@@ -1,5 +1,6 @@
 package March_10.HashMap;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -48,9 +49,7 @@ public class Map_Example {
         System.out.println("Value associated with '105': " + value);
 
 
-        //Getting the key set
-        Set<String> Keys = data.keySet();
-        System.out.println("Keys in the Data: " + Keys);
+        
 
     }
 
