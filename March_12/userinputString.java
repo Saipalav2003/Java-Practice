@@ -5,18 +5,17 @@ public class userinputString {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
-        int size;
         System.out.println("Enter list size ");
-        size = sc.nextInt();
+        String size = sc.next();
 
-        int arr[] = new int[size];
+        String arr[] = new String[size];
 
         ArrayList<String> data = new ArrayList<String>();
 
-        for (int i = 0; i < size; i++) {
+        for (String i = 0; i < size; i++) {
 
             System.out.println("Enter data = " +i);
-            arr[i] = sc.nextInt();
+            arr[i] = sc.next();
             data.add(String.valueOf(arr[i]));
 
         }
@@ -26,5 +25,8 @@ public class userinputString {
         for(String a : data) {
             System.out.println(a);
         }
+
+        sc.close();
+
     }
 }
