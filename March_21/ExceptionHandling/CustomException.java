@@ -1,6 +1,6 @@
 package March_21.ExceptionHandling;
 
-public class Throw {
+
     class CustomException extends Exception {
         // Constructor
         public CustomException(String message) {
@@ -8,10 +8,10 @@ public class Throw {
         }
     }
     
-    public class UseFinal {
+    public class CustomExceptionExample {
         
         // Method that throws the custom exception
-        public static void throwAndThrowsExample() throws CustomException {
+        public static void demonstrateCustomExeption(int value) throws CustomException {
             throw new CustomException("This is custom exception");
         }
     
@@ -23,4 +23,4 @@ public class Throw {
             }
         }
     }
-}
+
